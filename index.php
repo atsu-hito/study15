@@ -1,0 +1,103 @@
+<?php
+
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>宿題15</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    </head>
+    <body>
+        <div class="overview">
+            <h1 class="underline">Overview</h1>
+            <h2>会社概要</h2>
+    
+            <table class="screen" width="70%" cellspacing="0">
+                <tr>
+                    <th>社名</th>
+                    <td>株式会社ジェイタマズ（J-Tama's）</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>東京都千代田区内神田3-17-8小山第1ビル303</td>
+                </tr>
+                <tr>
+                    <th>TEL</th>
+                    <td>03-6822-5701</td>
+                </tr>
+                <tr>
+                    <th>設立</th>
+                    <td>2020年7月15日</td>
+                </tr>
+                <tr>
+                    <th>資本金</th>
+                    <td>89,999,806円（資本準備金含む）</td>
+                </tr>
+                <tr>
+                    <th>代表者</th>
+                    <td>
+                        共同代表取締役 CEO 小池桃太郎<br>
+                        共同代表取締役 坂本真一
+                    </td>
+                </tr>
+                <tr>
+                    <th>事業内容</th>
+                    <td>商談アポイントなしで商談を始めるWEB集客ツール「OPTEMO」の開発、運営</td>
+                </tr>
+            </table>
+    
+            <table class="mobile" width="70%" cellspacing="0">
+                <tr>
+                    <th>社名</th>
+                </tr>
+                <tr>
+                    <td>株式会社ジェイタマズ（J-Tama's）</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                </tr>
+                <tr>
+                    <td>東京都千代田区内神田3-17-8小山第1ビル303</td>
+                </tr>
+                <tr>
+                    <th>TEL</th>
+                </tr>
+                <tr>
+                    <td>03-6822-5701</td>
+                </tr>
+                <tr>
+                    <th>設立</th>
+                </tr>
+                <tr>
+                    <td>2020年7月15日</td>
+                </tr>
+                <tr>
+                    <th>資本金</th>
+                </tr>
+                <tr>
+                    <td>89,999,806円（資本準備金含む）</td>
+                </tr>
+                <tr>
+                    <th>代表者</th>
+                </tr>
+                <tr>
+                    <td class="height">
+                        共同代表取締役 CEO 小池桃太郎<br>
+                        共同代表取締役 坂本真一
+                    </td>
+                </tr>
+                <tr>
+                    <th>事業内容</th>
+                </tr>
+                <tr>
+                    <td class="height">商談アポイントなしで商談を始めるWEB集客ツール「OPTEMO」の開発、運営</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    </html>
+    
+?>
