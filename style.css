@@ -1,0 +1,80 @@
+body{
+    background: rgba(128,128,128,0.1);
+}
+
+.overview{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.underline{
+    margin-top: 20px;
+    font-size: 12px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.underline::after{
+    content: '';
+    position: absolute;
+    left: 50%; /*始点の位置調整*/
+    bottom: 23px; /*線の上下位置*/
+    display: inline-block;
+    width: 27px;/*線の長さ*/
+    height: 2px;/*線の太さ*/
+    transform: translateX(-50%); /*横方向の位置調整(この時の100%は疑似要素の要素幅)*/
+    background-color: blue; /*線の色*/
+    z-index: 1;
+}
+
+.overview table{
+    margin: 30px auto 0;
+    border-collapse: collapse;
+}
+
+.overview table tr > *{
+    border: 0.5px solid gray;
+    font-size: 13px;
+}
+
+.overview table th{
+    height: 4em;
+    width: 20%;
+}
+
+.overview table td{
+    text-align: left;
+    padding-left: 1em;
+    background: white;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 480px){
+
+    .mobile{
+        display: block;
+    }
+
+    .screen{
+        display: none;
+    }
+
+    .overview table tr > *{
+        height: 3em;
+        text-align: center;
+        padding: 0 1em;
+    }
+
+    .overview{
+        width: 90%;
+        padding-bottom: 50px;
+    }
+
+    .overview table tr .height{
+        height: 4em;
+    }
+}
