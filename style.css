@@ -30,7 +30,7 @@ body{
 
 .overview table{
     margin: 30px auto 0;
-    border-collapse: collapse;
+    border-collapse: collapse
 }
 
 .overview table tr > *{
@@ -76,7 +76,6 @@ body{
 
     .overview table{
         width: 90%;
-        border-collapse: separate;
     }
 
     .overview table tr .height{
