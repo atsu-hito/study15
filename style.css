@@ -74,6 +74,10 @@ body{
         padding-bottom: 50px;
     }
 
+    .overview table{
+        width: 90%;
+    }
+
     .overview table tr .height{
         height: 4em;
     }
