@@ -18,13 +18,13 @@ body{
 .underline::after{
     content: '';
     position: absolute;
-    left: 50%; /*始点の位置調整*/
-    bottom: 23px; /*線の上下位置*/
+    left: 50%; 
+    bottom: 23px; 
     display: inline-block;
-    width: 27px;/*線の長さ*/
-    height: 2px;/*線の太さ*/
-    transform: translateX(-50%); /*横方向の位置調整(この時の100%は疑似要素の要素幅)*/
-    background-color: blue; /*線の色*/
+    width: 27px;
+    height: 2px;
+    transform: translateX(-50%);
+    background-color: blue;
     z-index: 1;
 }
 
