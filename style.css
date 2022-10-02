@@ -76,6 +76,7 @@ body{
 
     .overview table{
         width: 90%;
+        border-collapse: separate;
     }
 
     .overview table tr .height{
